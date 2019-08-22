@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+0ab6f7e46951998bde5df0d104eb01ae CMakeFiles/trabalhodistribuidossensores-size
+09cadd6b1980084ac115f8977daa1d1d CMakeFiles/trabalhodistribuidossensores-upload
+77412d308c3770b131e51797918c9f55 trabalhodistribuidossensores_arduino.ino.cpp

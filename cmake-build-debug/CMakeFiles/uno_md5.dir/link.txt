@@ -1,0 +1,2 @@
+/opt/arduino/hardware/tools/avr/bin/avr-ar qc libuno_md5.a  CMakeFiles/uno_md5.dir/md5/md5.cpp.obj
+/opt/arduino/hardware/tools/avr/bin/avr-ranlib libuno_md5.a
