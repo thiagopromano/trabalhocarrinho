@@ -57,33 +57,32 @@ include CMakeFiles/trabalhodistribuidossensores.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/trabalhodistribuidossensores.dir/flags.make
 
-trabalhodistribuidossensores_arduino.ino.cpp: ../arduino.ino
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Regnerating arduino.ino Sketch"
+trabalhodistribuidossensores_carrinhoVencedor.ino.cpp: ../carrinhoVencedor.ino
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Regnerating carrinhoVencedor.ino Sketch"
 	/opt/CLion/bin/cmake/linux/bin/cmake /home/thiago/CLionProjects/carrinhoVencedor
 
-CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj: CMakeFiles/trabalhodistribuidossensores.dir/flags.make
-CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj: trabalhodistribuidossensores_arduino.ino.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj"
-	/opt/arduino/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj -c /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_arduino.ino.cpp
+CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj: CMakeFiles/trabalhodistribuidossensores.dir/flags.make
+CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj: trabalhodistribuidossensores_carrinhoVencedor.ino.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj"
+	/opt/arduino/hardware/tools/avr/bin/avr-g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj -c /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp
 
-CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.i"
-	/opt/arduino/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_arduino.ino.cpp > CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.i
+CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i"
+	/opt/arduino/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp > CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i
 
-CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.s"
-	/opt/arduino/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_arduino.ino.cpp -o CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.s
+CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s"
+	/opt/arduino/hardware/tools/avr/bin/avr-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp -o CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s
 
 # Object files for target trabalhodistribuidossensores
 trabalhodistribuidossensores_OBJECTS = \
-"CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj"
+"CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj"
 
 # External object files for target trabalhodistribuidossensores
 trabalhodistribuidossensores_EXTERNAL_OBJECTS =
 
-trabalhodistribuidossensores.elf: CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj
+trabalhodistribuidossensores.elf: CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj
 trabalhodistribuidossensores.elf: CMakeFiles/trabalhodistribuidossensores.dir/build.make
-trabalhodistribuidossensores.elf: libuno_md5.a
 trabalhodistribuidossensores.elf: libuno_CORE.a
 trabalhodistribuidossensores.elf: CMakeFiles/trabalhodistribuidossensores.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable trabalhodistribuidossensores.elf"
@@ -104,7 +103,7 @@ CMakeFiles/trabalhodistribuidossensores.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/trabalhodistribuidossensores.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/trabalhodistribuidossensores.dir/clean
 
-CMakeFiles/trabalhodistribuidossensores.dir/depend: trabalhodistribuidossensores_arduino.ino.cpp
+CMakeFiles/trabalhodistribuidossensores.dir/depend: trabalhodistribuidossensores_carrinhoVencedor.ino.cpp
 	cd /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/thiago/CLionProjects/carrinhoVencedor /home/thiago/CLionProjects/carrinhoVencedor /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/trabalhodistribuidossensores.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/trabalhodistribuidossensores.dir/depend
 

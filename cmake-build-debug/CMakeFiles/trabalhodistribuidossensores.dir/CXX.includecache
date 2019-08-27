@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp
+HardwareSerial.h
+-
+USBAPI.h
+-
+pins_arduino.h
+-
+Arduino.h
+/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/Arduino.h
+

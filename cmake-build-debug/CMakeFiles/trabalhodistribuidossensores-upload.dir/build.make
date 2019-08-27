@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug
 include CMakeFiles/trabalhodistribuidossensores-upload.dir/progress.make
 
 CMakeFiles/trabalhodistribuidossensores-upload: trabalhodistribuidossensores.elf
-	/opt/arduino/hardware/tools/avr/bin/avrdude -C/opt/arduino/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -b115200 -P/dev/ttyACM0 -D -v -Uflash:w:/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores.hex:i -Ueeprom:w:/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores.eep:i
+	/opt/arduino/hardware/tools/avr/bin/avrdude -C/opt/arduino/hardware/tools/avr/etc/avrdude.conf -patmega328p -carduino -b115200 -P/dev/ttyUSB0 -D -v -Uflash:w:/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores.hex:i -Ueeprom:w:/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/trabalhodistribuidossensores.eep:i
 
 trabalhodistribuidossensores-upload: CMakeFiles/trabalhodistribuidossensores-upload
 trabalhodistribuidossensores-upload: CMakeFiles/trabalhodistribuidossensores-upload.dir/build.make

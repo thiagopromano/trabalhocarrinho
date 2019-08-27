@@ -65,43 +65,10 @@ CMAKE_SOURCE_DIR = /home/thiago/CLionProjects/carrinhoVencedor
 CMAKE_BINARY_DIR = /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/upload.dir
-
-# All Build rule for target.
-CMakeFiles/upload.dir/all: CMakeFiles/trabalhodistribuidossensores-upload.dir/all
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/depend
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num= "Built target upload"
-.PHONY : CMakeFiles/upload.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 30
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/upload.dir/rule
-
-# Convenience name for target.
-upload: CMakeFiles/upload.dir/rule
-
-.PHONY : upload
-
-# clean rule for target.
-CMakeFiles/upload.dir/clean:
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/clean
-.PHONY : CMakeFiles/upload.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/upload.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/trabalhodistribuidossensores.dir
 
 # All Build rule for target.
 CMakeFiles/trabalhodistribuidossensores.dir/all: CMakeFiles/uno_CORE.dir/all
-CMakeFiles/trabalhodistribuidossensores.dir/all: CMakeFiles/uno_md5.dir/all
 	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/depend
 	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target trabalhodistribuidossensores"
@@ -114,7 +81,7 @@ all: CMakeFiles/trabalhodistribuidossensores.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/trabalhodistribuidossensores.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trabalhodistribuidossensores.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/trabalhodistribuidossensores.dir/rule
@@ -135,43 +102,6 @@ clean: CMakeFiles/trabalhodistribuidossensores.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/uno_md5.dir
-
-# All Build rule for target.
-CMakeFiles/uno_md5.dir/all: CMakeFiles/uno_CORE.dir/all
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/depend
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num=30,31 "Built target uno_md5"
-.PHONY : CMakeFiles/uno_md5.dir/all
-
-# Include target in all.
-all: CMakeFiles/uno_md5.dir/all
-
-.PHONY : all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/uno_md5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 27
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uno_md5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/uno_md5.dir/rule
-
-# Convenience name for target.
-uno_md5: CMakeFiles/uno_md5.dir/rule
-
-.PHONY : uno_md5
-
-# clean rule for target.
-CMakeFiles/uno_md5.dir/clean:
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/clean
-.PHONY : CMakeFiles/uno_md5.dir/clean
-
-# clean rule for target.
-clean: CMakeFiles/uno_md5.dir/clean
-
-.PHONY : clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/trabalhodistribuidossensores-upload.dir
 
 # All Build rule for target.
@@ -183,7 +113,7 @@ CMakeFiles/trabalhodistribuidossensores-upload.dir/all: CMakeFiles/trabalhodistr
 
 # Build rule for subdir invocation for target.
 CMakeFiles/trabalhodistribuidossensores-upload.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 30
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trabalhodistribuidossensores-upload.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/trabalhodistribuidossensores-upload.dir/rule
@@ -252,7 +182,7 @@ CMakeFiles/trabalhodistribuidossensores-size.dir/all: CMakeFiles/trabalhodistrib
 
 # Build rule for subdir invocation for target.
 CMakeFiles/trabalhodistribuidossensores-size.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 29
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/trabalhodistribuidossensores-size.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/trabalhodistribuidossensores-size.dir/rule
@@ -269,6 +199,38 @@ CMakeFiles/trabalhodistribuidossensores-size.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/trabalhodistribuidossensores-size.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/upload.dir
+
+# All Build rule for target.
+CMakeFiles/upload.dir/all: CMakeFiles/trabalhodistribuidossensores-upload.dir/all
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/depend
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles --progress-num= "Built target upload"
+.PHONY : CMakeFiles/upload.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/upload.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 28
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/upload.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/upload.dir/rule
+
+# Convenience name for target.
+upload: CMakeFiles/upload.dir/rule
+
+.PHONY : upload
+
+# clean rule for target.
+CMakeFiles/upload.dir/clean:
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/clean
+.PHONY : CMakeFiles/upload.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/upload.dir/clean
 
 .PHONY : clean
 

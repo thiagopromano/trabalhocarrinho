@@ -17,9 +17,6 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "../md5"
-  "../md5/src"
-  "../md5/utility"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
   "/opt/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp" "/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/uno_CORE.dir/opt/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj"
@@ -44,9 +41,6 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../md5"
-  "../md5/src"
-  "../md5/utility"
   )
 
 # Targets to which this target links.

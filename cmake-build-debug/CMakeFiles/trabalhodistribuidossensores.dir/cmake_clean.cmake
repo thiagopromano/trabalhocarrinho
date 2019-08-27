@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "trabalhodistribuidossensores_arduino.ino.cpp"
-  "CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj"
+  "trabalhodistribuidossensores_carrinhoVencedor.ino.cpp"
+  "CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj"
   "trabalhodistribuidossensores.pdb"
   "trabalhodistribuidossensores.elf"
 )

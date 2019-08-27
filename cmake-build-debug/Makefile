@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/opt/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/opt/CLion/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named upload
-
-# Build rule for target.
-upload: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 upload
-.PHONY : upload
-
-# fast build rule for target.
-upload/fast:
-	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
-.PHONY : upload/fast
-
-#=============================================================================
 # Target rules for targets named trabalhodistribuidossensores
 
 # Build rule for target.
@@ -135,19 +122,6 @@ trabalhodistribuidossensores: cmake_check_build_system
 trabalhodistribuidossensores/fast:
 	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/build
 .PHONY : trabalhodistribuidossensores/fast
-
-#=============================================================================
-# Target rules for targets named uno_md5
-
-# Build rule for target.
-uno_md5: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 uno_md5
-.PHONY : uno_md5
-
-# fast build rule for target.
-uno_md5/fast:
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/build
-.PHONY : uno_md5/fast
 
 #=============================================================================
 # Target rules for targets named trabalhodistribuidossensores-upload
@@ -188,32 +162,18 @@ trabalhodistribuidossensores-size/fast:
 	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores-size.dir/build.make CMakeFiles/trabalhodistribuidossensores-size.dir/build
 .PHONY : trabalhodistribuidossensores-size/fast
 
-md5/md5.obj: md5/md5.cpp.obj
+#=============================================================================
+# Target rules for targets named upload
 
-.PHONY : md5/md5.obj
+# Build rule for target.
+upload: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 upload
+.PHONY : upload
 
-# target to build an object file
-md5/md5.cpp.obj:
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/md5/md5.cpp.obj
-.PHONY : md5/md5.cpp.obj
-
-md5/md5.i: md5/md5.cpp.i
-
-.PHONY : md5/md5.i
-
-# target to preprocess a source file
-md5/md5.cpp.i:
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/md5/md5.cpp.i
-.PHONY : md5/md5.cpp.i
-
-md5/md5.s: md5/md5.cpp.s
-
-.PHONY : md5/md5.s
-
-# target to generate assembly for a file
-md5/md5.cpp.s:
-	$(MAKE) -f CMakeFiles/uno_md5.dir/build.make CMakeFiles/uno_md5.dir/md5/md5.cpp.s
-.PHONY : md5/md5.cpp.s
+# fast build rule for target.
+upload/fast:
+	$(MAKE) -f CMakeFiles/upload.dir/build.make CMakeFiles/upload.dir/build
+.PHONY : upload/fast
 
 opt/arduino/hardware/arduino/avr/cores/arduino/CDC.obj: opt/arduino/hardware/arduino/avr/cores/arduino/CDC.cpp.obj
 
@@ -863,32 +823,32 @@ opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.s:
 	$(MAKE) -f CMakeFiles/uno_CORE.dir/build.make CMakeFiles/uno_CORE.dir/opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 .PHONY : opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.c.s
 
-trabalhodistribuidossensores_arduino.ino.obj: trabalhodistribuidossensores_arduino.ino.cpp.obj
+trabalhodistribuidossensores_carrinhoVencedor.ino.obj: trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj
 
-.PHONY : trabalhodistribuidossensores_arduino.ino.obj
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.obj
 
 # target to build an object file
-trabalhodistribuidossensores_arduino.ino.cpp.obj:
-	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.obj
-.PHONY : trabalhodistribuidossensores_arduino.ino.cpp.obj
+trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj:
+	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.obj
 
-trabalhodistribuidossensores_arduino.ino.i: trabalhodistribuidossensores_arduino.ino.cpp.i
+trabalhodistribuidossensores_carrinhoVencedor.ino.i: trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i
 
-.PHONY : trabalhodistribuidossensores_arduino.ino.i
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.i
 
 # target to preprocess a source file
-trabalhodistribuidossensores_arduino.ino.cpp.i:
-	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.i
-.PHONY : trabalhodistribuidossensores_arduino.ino.cpp.i
+trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i:
+	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.i
 
-trabalhodistribuidossensores_arduino.ino.s: trabalhodistribuidossensores_arduino.ino.cpp.s
+trabalhodistribuidossensores_carrinhoVencedor.ino.s: trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s
 
-.PHONY : trabalhodistribuidossensores_arduino.ino.s
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.s
 
 # target to generate assembly for a file
-trabalhodistribuidossensores_arduino.ino.cpp.s:
-	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_arduino.ino.cpp.s
-.PHONY : trabalhodistribuidossensores_arduino.ino.cpp.s
+trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s:
+	$(MAKE) -f CMakeFiles/trabalhodistribuidossensores.dir/build.make CMakeFiles/trabalhodistribuidossensores.dir/trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s
+.PHONY : trabalhodistribuidossensores_carrinhoVencedor.ino.cpp.s
 
 # Help Target
 help:
@@ -896,17 +856,13 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
-	@echo "... upload"
 	@echo "... trabalhodistribuidossensores"
 	@echo "... rebuild_cache"
-	@echo "... uno_md5"
 	@echo "... trabalhodistribuidossensores-upload"
 	@echo "... uno_CORE"
 	@echo "... trabalhodistribuidossensores-size"
-	@echo "... md5/md5.obj"
-	@echo "... md5/md5.i"
-	@echo "... md5/md5.s"
+	@echo "... upload"
+	@echo "... edit_cache"
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/CDC.obj"
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/CDC.i"
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/CDC.s"
@@ -979,9 +935,9 @@ help:
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.obj"
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.i"
 	@echo "... opt/arduino/hardware/arduino/avr/cores/arduino/wiring_shift.s"
-	@echo "... trabalhodistribuidossensores_arduino.ino.obj"
-	@echo "... trabalhodistribuidossensores_arduino.ino.i"
-	@echo "... trabalhodistribuidossensores_arduino.ino.s"
+	@echo "... trabalhodistribuidossensores_carrinhoVencedor.ino.obj"
+	@echo "... trabalhodistribuidossensores_carrinhoVencedor.ino.i"
+	@echo "... trabalhodistribuidossensores_carrinhoVencedor.ino.s"
 .PHONY : help
 
 

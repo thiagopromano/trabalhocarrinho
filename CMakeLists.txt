@@ -15,7 +15,7 @@ set(${PROJECT_NAME}_HDRS User_Setup.h)
 # set(${PROJECT_NAME}_LIBS)
 
 ### Main sketch file
-set(${PROJECT_NAME}_SKETCH arduino.ino)
+set(${PROJECT_NAME}_SKETCH carrinhoVencedor.ino)
 
 ### Add project directories into the build
 # add_subdirectory()
@@ -30,7 +30,7 @@ set(${PROJECT_NAME}_SKETCH arduino.ino)
 
 #### Additional settings for programmer. From programmers.txt
 set(${PROJECT_NAME}_PROGRAMMER avrisp)
-set(${PROJECT_NAME}_PORT /dev/ttyACM0)
+set(${PROJECT_NAME}_PORT /dev/ttyUSB0)
 # set(uno.upload.speed 9600)
 
 ## Verbose build process

@@ -1,8 +1,7 @@
-/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/upload.dir
 /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/trabalhodistribuidossensores.dir
 /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/uno_md5.dir
 /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/trabalhodistribuidossensores-upload.dir
 /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/uno_CORE.dir
 /home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/trabalhodistribuidossensores-size.dir
+/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/upload.dir
+/home/thiago/CLionProjects/carrinhoVencedor/cmake-build-debug/CMakeFiles/edit_cache.dir
